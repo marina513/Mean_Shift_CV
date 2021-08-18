@@ -1,0 +1,24 @@
+﻿  Source.cpp
+D:\CV\Task4\Mean_shift_Gray\Source.cpp(83,22): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\CV\Task4\Mean_shift_Gray\Source.cpp(95,38): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\CV\Task4\Mean_shift_Gray\Source.cpp(44,48): warning C4101: 'B': unreferenced local variable
+D:\CV\Task4\Mean_shift_Gray\Source.cpp(44,42): warning C4101: 'R': unreferenced local variable
+D:\CV\Task4\Mean_shift_Gray\Source.cpp(44,45): warning C4101: 'G': unreferenced local variable
+D:\CV\Task4\Mean_shift_Gray\Source.cpp(16,70): warning C4244: 'argument': conversion from '__int64' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\CV\Task4\Mean_shift_Gray\Source.cpp(25): message : see reference to function template instantiation 'Iter select_randomly<Iter,std::mt19937>(Iter,Iter,RandomGenerator &)' being compiled
+          with
+          [
+              Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+              RandomGenerator=std::mt19937
+          ]
+D:\CV\Task4\Mean_shift_Gray\Source.cpp(66): message : see reference to function template instantiation 'Iter select_randomly<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(Iter,Iter)' being compiled
+          with
+          [
+              Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+              _Ty=int
+          ]
+  Mean_shift_Gray.vcxproj -> D:\CV\Task4\Mean_shift_Gray\x64\Debug\Mean_shift_Gray.exe
